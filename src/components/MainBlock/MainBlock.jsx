@@ -1,5 +1,4 @@
 import styles from "./MainBlock.module.css";
-import desk_image from "../../assets/desk_image.svg";
 
 const MainBlock = () => {
   return (
@@ -10,9 +9,9 @@ const MainBlock = () => {
         </h1>
         <h3>Stay tuned.</h3>
       </div>
-      <div className={styles["image-block"]}>
-        <img src={desk_image} alt="" />
-      </div>
+      <div className={styles["image-block"]} />
+      <div className={styles["tab-image-block"]} />
+      <div className={styles["mobile-image-block"]} />
     </div>
   );
 };

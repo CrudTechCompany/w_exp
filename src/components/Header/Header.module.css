@@ -11,5 +11,27 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: green;
+}
+.content img {
+  width: 90px;
+  height: 90px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    height: 144px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    height: 120px;
+  }
+  .content {
+    width: calc(100% - 70px);
+  }
+  .content img {
+    width: 66px;
+    height: 66px;
+  }
 }
